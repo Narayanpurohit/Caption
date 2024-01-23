@@ -1,0 +1,27 @@
+
+4. **app.json:**
+```json
+{
+  "name": "caption-editor-bot",
+  "description": "A Telegram bot that edits captions in messages.",
+  "repository": "https://github.com/your-username/caption-editor-bot",
+  "logo": "https://example.com/logo.png",
+  "keywords": ["telegram", "bot"],
+  "addons": ["heroku-postgresql"],
+  "env": {
+    "YOUR_BOT_TOKEN": {
+      "description": "Your Telegram Bot Token"
+    },
+    "YOUR_API_ID": {
+      "description": "Your Telegram API ID"
+    },
+    "YOUR_API_HASH": {
+      "description": "Your Telegram API Hash"
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
