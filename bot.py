@@ -3,9 +3,9 @@ from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, Callb
 from pyrogram import Client
 
 # Replace "YOUR_BOT_TOKEN", "YOUR_API_ID", and "YOUR_API_HASH" with your actual values
-bot_token = "YOUR_BOT_TOKEN"
-api_id = "YOUR_API_ID"
-api_hash = "YOUR_API_HASH"
+bot_token = "6596499087:AAEwa0BTkuu3hmkCzZIy64tdY8HAg0q8gho"
+api_id = "15191874"
+api_hash = "3037d39233c6fad9b80d83bb8a339a07"
 
 # Initialize the Pyrogram client
 app = Client("my_bot", api_id=api_id, api_hash=api_hash, bot_token=bot_token)
